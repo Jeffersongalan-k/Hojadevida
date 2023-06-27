@@ -4,21 +4,42 @@ padding: 0;
 
 
 }
-.izquierda{
+.izquierda  {
     background: #FCD21D;
     height: 100vh;
+    width: 100%;
+    margin: auto;
 
 }
 
-.derecha{
-    background:url(../JSFS-CSS-lab/images/descarga.jpg) ;
+.derecha {
+    background: url(12.webp);
     background-size:cover ;
     background-position: center;
     width: 50%;
     height: 100vh;
 
 }
-#pantalla-dividida{
+#pantalla {
     display: flex;
     
+}
+
+
+.crea {color:#fff;
+
+}
+
+h1 {
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+a {border: 1px solid #fff;
+    padding: 10px;
+text-decoration: none;
+color: #fff;
+border-radius: 5px;
+font-weight: bold;
+text-align: center;
 }
