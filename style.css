@@ -1,7 +1,24 @@
-h1{
-    font-family:cursive ;
+body{
+margin: 0;
+padding: 0;
+
+
+}
+.izquierda{
+    background: #FCD21D;
+    height: 100vh;
+
 }
 
-body{background-color: 
-    aqua;}
+.derecha{
+    background:url(../JSFS-CSS-lab/images/descarga.jpg) ;
+    background-size:cover ;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
 
+}
+#pantalla-dividida{
+    display: flex;
+    
+}
